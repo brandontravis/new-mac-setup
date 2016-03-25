@@ -1,0 +1,59 @@
+#!/bin/sh
+
+# Initial Setup
+# Install OS X Command Line Tools
+# ----------------------------------
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Tell OS X to use apps installed by Homebrew, if they exist
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+
+
+# Cleanup
+# ----------------------------------
+brew doctor
+brew update
+brew upgrade
+
+# Brew packages Required for Setup
+# ----------------------------------
+brew install node
+brew install git
+# brew install trash && alias rm='trash'
+
+# Install Brew/Caskroom via caskroom/cask, not Phinze
+brew tap caskroom/cask
+
+# Change Cask Default Installation Directory
+# ----------------------------------
+# Change the Symlink director for Caskroom apps to /Applications instead of ~/Applications
+# Note: I am chosing not to relocate caskroom because it doesn't seem to be necessary
+# #export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
+echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
+
+# Configure Git
+# ----------------------------------
+git config --global user.name “Brandon Travis”
+git config --global user.email “brandon@brandontravis.io”
+
+# Set terminal to ZSH and install Oh-My-ZSH
+# ----------------------------------
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+# Make .zshrc source ~/.bash_profile
+# This is probably a poor practice
+# -----------------------------------
+echo ‘source ~/.bash_profile’ >> ~/.zshrc
+
+# Install Additional Developer Tools
+# ----------------------------------
+npm install -g grunt-cli
+npm install -g yo
+npm install -g bower
+<<<<<<< HEAD
+sudo gem install sass
+=======
+sudo gem install sass
+>>>>>>> d0ff8452c4b903db5478afa4318d9f8ecd509d74

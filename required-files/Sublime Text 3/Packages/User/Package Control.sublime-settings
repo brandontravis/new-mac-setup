@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Snippets",
+		"CSS3",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"ExportHtml",
+		"FileDiffs",
+		"GitGutter",
+		"HTML Snippets",
+		"HTML5",
+		"JavaScript & NodeJS Snippets",
+		"jQuery",
+		"jQuery Mobile 1.4 Snippets",
+		"jQueryDocs",
+		"JS Snippets",
+		"Neat Sass Snippets",
+		"Origami",
+		"Package Control",
+		"SASS Snippets",
+		"SCSS",
+		"SCSS Snippets",
+		"SideBarEnhancements",
+		"SideBarFolders",
+		"Theme - Cobalt2",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"WordPress",
+		"WordPress Developer Resources",
+		"WordPress Generate Salts"
+	]
+}

@@ -1,0 +1,60 @@
+#!/bin/sh
+
+# Cask Packages
+# ----------------------------------
+brew cask install adobe-creative-cloud      #requires post install
+brew cask install alfred
+brew cask install bartender
+brew cask install caffeine
+brew cask install cheatsheet
+brew cask install cleanmymac
+brew cask install codekit
+brew cask install dashlane
+brew cask install diffmerge
+brew cask install divvy
+brew cask install evernote
+brew cask install firefox
+brew cask install google-chrome
+brew cask install istat-menus
+brew cask install logitech-options
+brew cask install limechat
+brew cask install skyfonts
+brew cask install namechanger
+brew cask install opera
+brew cask install parallels-desktop
+brew cask install proxpn
+brew cask install sequel-pro
+brew cask install skype
+brew cask install spotify
+brew cask install sublime-text3
+brew cask install sourcetree
+brew cask install the-unarchiver
+brew cask install tower
+brew cask install transmit
+brew cask install teamspeak-client
+brew cask install toggledesktop
+brew cask install unrarx
+brew cask install utorrent
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install vlc
+brew cask install windownaut
+brew cask install xscope
+
+# Install Quicklook Plugins
+# These allow Finders 'Quicklook' to render these files
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypath
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install webpquicklook
+brew cask install qlimagesize
+brew cask install suspicious-package
+
+# Cleanup
+# ----------------------------------
+brew cleanup
+rm -rf brew --cache
