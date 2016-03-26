@@ -15,7 +15,9 @@ brew cask install divvy
 brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
-brew cask install istat-menus
+# brew cask install istat-menus
+brew cask install imagealpha
+brew cask install imageoptim
 brew cask install logitech-options
 brew cask install limechat
 brew cask install skyfonts
@@ -40,6 +42,7 @@ brew cask install virtualbox
 brew cask install vlc
 brew cask install windownaut
 brew cask install xscope
+
 
 # Install Quicklook Plugins
 # These allow Finders 'Quicklook' to render these files

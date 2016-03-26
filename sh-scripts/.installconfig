@@ -52,8 +52,11 @@ echo ‘source ~/.bash_profile’ >> ~/.zshrc
 npm install -g grunt-cli
 npm install -g yo
 npm install -g bower
-<<<<<<< HEAD
 sudo gem install sass
-=======
-sudo gem install sass
->>>>>>> d0ff8452c4b903db5478afa4318d9f8ecd509d74
+
+# Configure Git
+# ----------------------------------
+ln -s ~/Dropbox/Work/Development/Projects/new-mac-setup/sh-scripts/.gitignore
+git config --global user.name “Brandon Travis”
+git config --global user.email “brandon@brandontravis.io”
+git config --global core.excludesfile '~/.gitignore'

@@ -10,7 +10,7 @@ alias hideFiles="defaults write com.apple.finder AppleShowAllFiles false && kill
 alias goRoot="cd ~/Dropbox/Work/Development/"
 alias goSites="cd ~/Dropbox/Work/Development/Sites"
 alias goDev="cd *dev*"
-alias  goProj="cd ~/Dropbox/Work/Development/Projects"
+alias goProj="cd ~/Dropbox/Work/Development/Projects"
 
 # Show Filename Extensions
 alias showExt="defaults write NSGlobalDomain AppleShowAllExtensions -bool true"
@@ -26,15 +26,13 @@ alias -- -="cd -"
 
 # programs
 alias slt='open -a "Sublime Text 3"'
-# also/or do this:
-# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
+# alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -59,6 +57,7 @@ alias bci="brew cask install"
 alias bcu="brew cask uninstall"
 alias bcs="brew cask search"
 alias bcl="brew cask list"
+alias cask="brew cask"
 
 # Source Files
 alias srczsh="source ~/.zshrc"
