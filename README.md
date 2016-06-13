@@ -20,7 +20,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
     ```
     ln -s ~/Dropbox/Work/Development/Projects/new-mac-setup/sh-scripts ~
     OR
-    ln -s ~/Downloads/new-mac-setup-master/sh-scripts
+    ln -s ~/Downloads/new-mac-setup-master/sh-scripts ~
     ```
 
 7. Add the sh-scripts directory to $PATH (Will add to ZSH profile later, if needed)
