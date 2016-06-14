@@ -18,7 +18,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
 6. Create a Symlink to the sh-scripts directory (note, everything in this directory *should* be `chmod u+x ...`, but set those permissions if they don't run for some reason)
 
     ```
-    ln -s ~/Dropbox\ (Personal)/Work/Development/Projects/new-mac-setup/sh-scripts ~
+    ln -s ~/Dropbox\ \(Personal\)/Work/Development/Projects/new-mac-setup/sh-scripts ~
     OR
     ln -s ~/Downloads/new-mac-setup-master/sh-scripts ~
     ```
@@ -85,8 +85,8 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
     ```
 2. Symlink files to Dropbox
     ```
-    ln -s ~/Dropbox\ (Personal)/Work/Development/Projects/new-mac-setup/required-files/Sublime\ Text\ 3/Packages ~/Library/Application\ Support/Sublime\ Text\ 3
-    ln -s ~/Dropbox\ (Personal)/Work/Development/Projects/new-mac-setup/required-files/Sublime\ Text\ 3/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3
+    ln -s ~/Dropbox\ \(Personal\)/Work/Development/Projects/new-mac-setup/required-files/Sublime\ Text\ 3/Packages ~/Library/Application\ Support/Sublime\ Text\ 3
+    ln -s ~/Dropbox\ \(Personal\)/Work/Development/Projects/new-mac-setup/required-files/Sublime\ Text\ 3/Installed\ Packages ~/Library/Application\ Support/Sublime\ Text\ 3
     ```
 
 ## Setup and Confiure MAMP to use Dropbox DB Instead of Local DB
@@ -97,7 +97,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
     ```
 3. Symlink Dropbox Databases to MAMP
     ```
-    ln -s ~/Dropbox\ (Personal)/Work/Development/Databases/mysql /Library/Application\ Support/appsolute/MAMP\ PRO/db
+    ln -s ~/Dropbox\ \(Personal\)/Work/Development/Databases/mysql /Library/Application\ Support/appsolute/MAMP\ PRO/db
     ```
 4. Link Dropbox Hosts File (Not Yet)
 
@@ -108,7 +108,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
 ## Create Aliases
 1. Symlink Aliases File
     ```
-    ln -s ~/Dropbox\ (Personal)/Work/Development/Projects/new-mac-setup/sh-scripts/.aliases ~
+    ln -s ~/Dropbox\ \(Personal\)/Work/Development/Projects/new-mac-setup/sh-scripts/.aliases ~
     echo 'source $HOME/.aliases' >> ~/.zshrc
     ```
 
@@ -119,7 +119,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
     ```
     rm -rf ~/Library/Application\ Support/Dash/DocSets
     rm -rf ~/Library/Application\ Support/Dash/library.dash
-    ln -s /Users/brandontravis/Dropbox\ (Personal)/Work/Development/Projects/new-mac-setup/required-files/Dash/DocSets /Users/brandontravis/Library/Application\ Support/Dash
+    ln -s /Users/brandontravis/Dropbox\ \(Personal\)/Work/Development/Projects/new-mac-setup/required-files/Dash/DocSets /Users/brandontravis/Library/Application\ Support/Dash
     ```
 ## ToDo
 1. Link Dash DocSets
