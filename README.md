@@ -31,7 +31,7 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
     ```
 
 ## Begin Script Installation
-1. Run `.installconfig` to install and configure
+1. Run `~/sh-scripts/.installconfig` to install and configure
     - OS X Command Line Tools
     - Homebrew
     - Node
