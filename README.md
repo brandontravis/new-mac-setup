@@ -78,6 +78,9 @@ These repo is designed to rapidly setup new Mac OS X development environements. 
 7. Restart Mac OS X
 
 ## Setup and Configure Sublime Text 3 to use Dropbox Files
+
+NOTE: Use this guide instead: adamdehaven.com/blog/2015/07/how-to-sync-sublime-text-packages-and-settings-across-multiple-computers-with-dropbox/
+
 1. Remove Local Folders
     ```
     rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
